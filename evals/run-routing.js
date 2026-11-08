@@ -19,7 +19,7 @@ const { loadAllSkills } = require('./lib/skills');
 const { droidJsonAsync, maxEffortFor } = require('./lib/droid');
 const { runDir, writeJson, mapPool } = require('./lib/io');
 
-const ROUTER = process.env.ROUTER_MODEL || 'claude-sonnet-4-6';
+const ROUTER = process.env.ROUTER_MODEL || 'claude-sonnet-5-5';
 const CONC = parseInt(process.env.CONC || '4', 10);
 const DATASET = process.env.ROUTING_DATASET || path.join(__dirname, 'datasets', 'routing-cases.jsonl');
 

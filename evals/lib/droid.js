@@ -29,8 +29,8 @@ const MAX_EFFORT = {
   'gpt-5.5-pro': 'xhigh',
   'gemini-3.1-pro-preview': 'high',
   'deepseek-v4-pro': 'max',
-  'claude-opus-4-8': 'max',
-  'claude-sonnet-4-6': 'high',
+  'claude-opus-5-5': 'max',
+  'claude-sonnet-5-5': 'high',
   'claude-haiku-4-5-20251001': 'high',
 };
 
